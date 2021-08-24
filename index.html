@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>My Movie list</h1>
+    </header>
+    <main>
+        <div id="formSection">
+            <fieldset>
+                <legend>New movie</legend>
+                <form >
+                    <label> Name</label>
+                    <br>
+                    <input type="text"  id="name">
+                    <br>
+                    <label id="image">Image</label>
+                    <br>
+                    <select name="" id="imgList">
+                        <!-- <option value="">1</option>
+                        <option value="">1</option>
+                        <option value="">1</option> -->
+                    </select>
+                    <br>
+                    <label >Release</label>
+                    <br>
+                    <input type="number" id="release"><br>
+
+                    <button id="save">Save</button>
+                    <button id="clearLS">Clear LS</button>
+
+                </form>
+            </fieldset>
+
+        </div>
+
+        <div id="tableSection">
+            <table id="table">
+               
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>All right reserved 2021 &copy; ASAC</p>
+
+    </footer>
+    <script src="./app.js"></script>
+
+</body>
+</html>

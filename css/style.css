@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body{
+    display: grid;
+    grid-template-rows: 100px auto 50px;
+}
+
+main{
+    width: 900px;
+    margin: auto 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 15px;
+}
+
+header{
+    background-color: #39A2DB;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+header h1{
+    text-align: center;
+}
+
+
+footer{
+    background-color: #053742;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+fieldset{
+    border: 3px dashed gray;
+    border-radius: 5px;
+}
+legend{
+    font-weight: bold;
+
+}
+#formSection{
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    margin: 50px auto;
+}
+label:nth-child(0){
+    margin-top: 20px;
+}
+input{
+    width:250px;
+}
+button{
+    
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px auto ;
+    color: white;
+    padding: 10px 10px;
+
+}
+#save{
+    background-color: #71c7ec;
+    border: #71c7ec;
+    
+
+}
+#clearLS{
+    background-color: #a10909;
+    border: #a10909;
+
+}
+option{
+    text-transform: capitalize;
+}
+
+table tr{
+    background-color: #A2DBFA;
+    font-family: 'Roboto', sans-serif;
+    column-gap: 25px;
+    float: right;
+    width: ;
+
+}
